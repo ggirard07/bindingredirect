@@ -23,6 +23,10 @@ namespace BindingRedirectIssue.Wpf
         public MainWindow()
         {
             InitializeComponent();
+
+            Console.WriteLine($"!!!BindingRedirectIssue.Cmd!!! {Microsoft.WindowsAzure.Storage.CloudStorageAccount.DevelopmentStorageAccount}");
+
+            BindingRedirectIssue.Common.Class1.Debug();
         }
     }
 }
