@@ -10,8 +10,6 @@ namespace BindingRedirectIssue.Cmd
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"!!!BindingRedirectIssue.Cmd!!! {Microsoft.WindowsAzure.Storage.CloudStorageAccount.DevelopmentStorageAccount}");
-
             BindingRedirectIssue.Common.Class1.Debug();
         }
     }
